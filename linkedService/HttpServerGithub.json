@@ -1,0 +1,12 @@
+{
+	"name": "HttpServerGithub",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://github.com/ketandimble1098/Databricks-Retail-Banking-Project/blob/main/Dataset/transactions/",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
