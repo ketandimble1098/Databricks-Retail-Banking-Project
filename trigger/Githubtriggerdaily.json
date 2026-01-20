@@ -1,0 +1,25 @@
+{
+	"name": "Githubtriggerdaily",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "copy_data_from_HTTP_server",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2026-01-20T14:05:00",
+				"endTime": "2026-01-22T14:05:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
