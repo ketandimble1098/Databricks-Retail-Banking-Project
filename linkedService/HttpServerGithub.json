@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "https://github.com/ketandimble1098/Databricks-Retail-Banking-Project/blob/main/Dataset/transactions/",
+			"url": "https://github.com/ketandimble1098/Databricks-Retail-Banking-Project/blob/main/Dataset/transactions/transactions2013.csv",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
