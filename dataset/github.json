@@ -1,0 +1,22 @@
+{
+	"name": "github",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServerGithub",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "Dataset/transactions/transactions2013.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
